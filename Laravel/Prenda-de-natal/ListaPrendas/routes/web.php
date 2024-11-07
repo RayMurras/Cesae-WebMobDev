@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PrendaController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::resource('prendas', PrendaController::class);
