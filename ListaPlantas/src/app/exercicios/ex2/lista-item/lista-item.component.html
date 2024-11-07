@@ -1,0 +1,6 @@
+<div [ngStyle]="{'background-color': planta.tipo === 'interior' ? 'beige' : 'white'}">
+  <h3 [ngStyle]="{'color': planta.tipo === 'flor' ? 'pink' : 'black'}">{{ planta.nome }}</h3>
+  <p>ID: {{ planta.id }}</p>
+  <p>Tipo: {{ planta.tipo }}</p>
+</div>
+
